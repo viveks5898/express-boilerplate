@@ -6,6 +6,7 @@ import { productController } from "../controller/productController.js";
  import { verifyToken } from "../middlewear/auth.js";
  const router = Router()
 
+
  
  router.post('/createProduct', verifyToken, productController)
  router.post('/createUser',userController )
