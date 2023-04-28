@@ -1,4 +1,5 @@
 
+
 import { Router } from "express";
 import { productController } from "../controller/productController.js";
  import { authMiddle } from "../middlewear/auth.js";
@@ -7,7 +8,7 @@ import { productController } from "../controller/productController.js";
  const router = Router()
 
 
- 
+
  router.post('/createProduct', verifyToken, productController)
  router.post('/createUser',userController )
 
