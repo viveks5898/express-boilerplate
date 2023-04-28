@@ -10,5 +10,6 @@ import { productController } from "../controller/productController.js";
  router.post('/createUser',userController )
 
  
+ 
 
 export default router;
