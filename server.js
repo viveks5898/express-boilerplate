@@ -5,6 +5,7 @@ import mongoose from "mongoose";
 import router from "./src/routes/routes.js";
 const app = express();
 
+
 app.use(express.json());
 
 mongoose.connect(MONGODB_URL, {
